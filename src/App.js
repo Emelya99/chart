@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import 'normalize.css';
+import './App.scss';
+// import SimpleChart from './components/SimpleChart';
+import MainChart from './components/MainChart';
+// import LiveChart from './components/LiveChart';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainChart />
+      {/* <SimpleChart /> */}
+      {/* <LiveChart /> */}
+    </>
   );
-}
+};
 
 export default App;
