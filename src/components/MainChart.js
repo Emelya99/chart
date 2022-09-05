@@ -2069,7 +2069,7 @@ const MainChart = () => {
     <div className="app">
       <div id="chartcontrols"></div>
       <div id="chartdiv" style={{ width: '100%', height: '500px' }}>
-        <img src="/images/mount-opacity.jpg" alt="mount-opacity" />
+        <img src="./images/mount-opacity.jpg" alt="mount-opacity" />
       </div>
     </div>
   );
